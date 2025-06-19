@@ -1,8 +1,7 @@
 import os
 import re
 
-folder_path = "2024"
-total_writeup_2023 = 527
+folder_path = "2025"
 
 if os.path.exists(folder_path) and os.path.isdir(folder_path):
     first_level_subfolders = [name for name in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, name))]
